@@ -4,3 +4,71 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
+
+.marker {
+  transform: translate(-50%, -100%);
+}
+
+.popup {
+  max-width: 400px;
+  color: black;
+  margin-top: -30px;
+  margin-left: -10px;
+  padding: 10px;
+}
+
+
+.entryLog{
+  padding-top: 20px;
+  width: 13rem;
+}
+
+.entryLog label,
+.entryLog input,
+.entryLog textarea,
+.entryLog button {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+
+.entryLog button{
+  margin-top: 20px;
+  background-color: #f05305;
+  color:white;
+  outline-width: 0px;
+  border:1px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.entryLog input{
+  height: 25px;
+ 
+}
+
+.ERROR {
+  color: #f05305;
+}
+
+.addLocation {
+  stroke-width: 4px;
+}
+
+.Addpopup {
+  top: 20;
+  color: black;
+}
+
+.marker.red {
+  stroke: #f05305;
+  stroke-width: 3;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
