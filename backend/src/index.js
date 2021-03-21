@@ -30,16 +30,12 @@ mongoose
 
 app.use(morgan("common"));
 app.use(helmet());
-app.use(
-  cors({
-    origin: process.env.CORS_ORIGIN,
-  })
-);
+app.use();
 app.use(express.json());
 
 // // api routes for Home Page
 app.get("/", (req, res) => {
-  res.send("🚁");
+  res.send("hello");
 });
 
 app.use("/api/logs", logs);
